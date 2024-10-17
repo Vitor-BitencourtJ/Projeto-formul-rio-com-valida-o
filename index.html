@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Formulário com validação </title>
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+
+<body>
+    <main class="conteudos">
+        <div class="info">
+            <h1 class="titulo">
+                FICOU COM DÚVIDA? <br>
+                NOS MANDE UMA MENSAGEM!</h1>
+            <h2 class="texto">
+                caso tenha ficado com qualquer dúvida <br>
+                basta nos mandar uma mensagem e <br>
+                entraremos em contato em menos de 24h.
+            </h2>
+        </div>
+
+        <div class="formulario">
+            <input type="text" name="nome-completo" id="nome-completo" class="campo nome" placeholder="Nome completo *">
+            <label class="aviso-campo esconder">campo obrigatório</label>
+
+            <input type="text" name="email" id="email" class="campo email" placeholder="Email *">
+            <label class="aviso-campo esconder">campo obrigatório</label>
+
+            <input type="number" name="telefone" id="telefone" class="campo telefone" placeholder="Telefone *">
+            <label class="aviso-campo esconder">campo obrigatório</label>
+
+            <input name="mensagem" id="mensagem" class="campo mensagem" placeholder="Mensagem *">
+            <label class="aviso-campo esconder">campo obrigatório</label>
+
+            <p class="mensagem-campos obrigatorio">*campos obrigatórios</p>
+
+            <input type="submit" value="Enviar" class="botao-enviar">
+        </div>
+    </main>
+
+
+    <script src="./src/JS/index.js" type="text/javascript"></script>
+</body>
+</html>
